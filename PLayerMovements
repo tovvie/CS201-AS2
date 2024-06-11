@@ -1,0 +1,15 @@
+// CS201 AS2 by Ashley McAnally
+using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+
+    private Rigidbody2D body;
+
+    private void Awake() //called every time the script is loaded. Every time the you start the game the script is being loaded and the awake
+                         //method is being executed. 
+    {
+        body = GetComponent<Rigidbody2D>();
+        // attached to player object, checks player object for the component type Rigid Body 2D and stores it inside the body variable.
+    }
+}
