@@ -12,4 +12,9 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         // attached to player object, checks player object for the component type Rigid Body 2D and stores it inside the body variable.
     }
+
+    private void Update()
+    {
+        
+    }
 }
