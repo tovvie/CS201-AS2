@@ -13,8 +13,8 @@ public class PlayerMovement : MonoBehaviour
         // attached to player object, checks player object for the component type Rigid Body 2D and stores it inside the body variable.
     }
 
-    private void Update()
+    private void Update() // called in every frame for movement of character 
     {
-        
+        body.velocity = new Vector3(0,0,0); // used to assign the speed in all three directions (under transform and position in unity)
     }
 }
